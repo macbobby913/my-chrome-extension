@@ -14,7 +14,7 @@
     "48": "logo-small.png",
     "128": "logo-small.png"
   },
-  "permissions": ["webRequest", "*://developer.mozilla.org/"],
+  "permissions": ["webRequest", "<all_urls>"],
   "background": {
     "scripts": ["app/background.js"]
   }
